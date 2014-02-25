@@ -10,7 +10,7 @@
 	</form-beans>
 
 	<action-mappings>
-		<action path="/helloWorld" type="com.mkyong.common.action.HelloWorldAction"
+		<action path="/helloWorld" type="org.anu.itsme.login.action.LogginAction"
 			name="helloWorldForm">
 			<forward name="success" path="/hoem.jsp" />
 
